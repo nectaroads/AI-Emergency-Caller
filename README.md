@@ -2,14 +2,14 @@
 AI-Emergency-Caller is a **(...)**.
 
 ## Client Features
-- [] Front-end design
-- [] Server requests
-- [] Call redirect
+- [ ] Front-end design
+- [ ] Server requests
+- [ ] Call redirect
 
 ## Server Features
 - [X] Text recognition 
 - [X] Voice recognition
-- [] Image recognition
+- [ ] Image recognition
 - [X] AI analysis
 
 ## Contributions
