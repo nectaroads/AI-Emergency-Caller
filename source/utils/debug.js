@@ -37,7 +37,7 @@ function test1() {
 
 function sendDebugAudioMessage(target) {
     print(`[Log] Debug: Request: Sending placeholder audio...`);
-    const { audioFile, req } = test["lay"]();
+    const { audioFile, req } = test["peu"]();
     handleRequest(req, null, "help");
 }
 

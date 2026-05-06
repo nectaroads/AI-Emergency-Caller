@@ -12,6 +12,11 @@ module.exports = async (req, res) => {
         return print(`[Warn] Process: No latitude found`);
     }
 
+    if (!body.lon) {
+        if (res) res.status(400).json({ success: false, reason: "Missing longitude" });
+        return print(`[Warn] Process: No longitude found`);
+    }
+
     const location = await getLocation(body.lat, body.lon);
 
     if (!location) {
